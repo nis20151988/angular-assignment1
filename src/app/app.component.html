@@ -1,0 +1,51 @@
+<table border="1"> 
+  <tr> 
+    <td><input type="text" name="val1" id="val1" value="{{val1}}" style="text-align: center;" /></td> 
+    <td><input type="text" readonly="readonly" name="val2" id="val2" value="{{val2}}" style="text-align: center;" /></td> 
+    <td><input type="text" id="result" name="val3" id="val3" value="{{val3}}" style="text-align: center;" /></td> 
+    <td><input type="text" id="result" name="val4" id="val4" value="{{val4}}" style="text-align: center;" /></td> 
+  </tr> 
+  
+  <tr> 
+
+      <!-- Create button and display its value -->
+      <td><input type="button" value="7" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="8" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="9" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="C" (click)="operation($event)" /></td>
+  </tr> 
+          
+  <tr class="result-align"> 
+      <td><input type="button" value="4" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="5" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="6" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="*" (click)="operation($event)" /> </td> 
+  </tr> 
+  
+  <tr> 
+      <td><input type="button" value="1" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="2" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="3" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="/" (click)="operation($event)" /> </td> 
+  </tr> 
+          
+  <tr> 
+    <td><input type="button" value="+" (click)="operation($event)" /> </td>
+      
+      <td><input type="button" value="0" (click)="operation($event)" /> </td> 
+      
+      <td><input type="button" value="-"  (click)="operation($event)" /> </td>  
+      
+      <td><input type="button" value="="  (click)="operation($event)" /> </td> 
+  </tr> 
+
+</table> 
